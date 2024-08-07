@@ -67,7 +67,7 @@ let lirik_lagu = {
 };
 const nama_anda = "Idris";
 // const cita_cita_anda = "Programer";
-const newLirikLagu = Object.assign(Object.assign({}, lirik_lagu.data), { artist: nama_anda, songTitle: 'cita_cita_anda' });
+const newLirikLagu = Object.assign(Object.assign({}, lirik_lagu.data), { artist: nama_anda, songTitle: 'Programer' });
 console.log(newLirikLagu);
 const lirik = "For me to take what's mine, until the end of time?";
 const foundLyric = lirik_lagu.data.songLyricsArr.find(lyric => lyric.includes(lirik));
